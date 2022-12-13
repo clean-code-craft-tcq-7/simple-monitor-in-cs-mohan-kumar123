@@ -1,5 +1,5 @@
 pushd "%~dp0"
 
-checker.cs
+checker.exe
 
 popd
