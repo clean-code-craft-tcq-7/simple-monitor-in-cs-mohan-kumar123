@@ -1,12 +1,4 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
-  <PropertyGroup>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
-    <ProjectGuid>{F96FCC89-571D-4872-9CC2-CB2C98498B98}</ProjectGuid>
-  </PropertyGroup>
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Compile Include="AppConstantRange.cs" />
     <Compile Include="ChargeRate.cs" />
