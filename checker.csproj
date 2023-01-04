@@ -1,15 +1,13 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Include="AppConstantRange.cs" />
-    <Compile Include="ChargeRate.cs" />
-    <Compile Include="checker.cs" />
-    <Compile Include="ConsoleExt.cs" />
-    <Compile Include="IRange.cs" />
-    <Compile Include="Soc.cs" />
-    <Compile Include="Temperature.cs" />
-    <Compile Include="UnitTest.cs" />
+      <Compile Include="checker.cs"/>
+      <Compile Include="BMS_Test.cs"/>
+      <Compile Include="BMS_ThresholdLimits.cs"/>
+      <Compile Include="BMS_PrintConsole_ThresholdBreach.cs"/>
+      <Compile Include="BMS_CheckThresholdBreach.cs"/>
+      <Compile Include="BMS_KeyParams.cs"/>
   </ItemGroup>
   <Target Name="Build">
-    <Csc Sources="@(Compile)" />  
+    <Csc Sources="@(Compile)"/>  
   </Target>
 </Project>
